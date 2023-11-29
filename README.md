@@ -1,4 +1,3 @@
 # peliculas-api
-Página web de catalogo de peliculas usando la Api omdb.
-La página web no funciona, porque github no deja usar los enlaces que no son http, ya que no son seguros.
+Página web de catalogo de peliculas usando la Api omdb hecha con html, css y javascript (usando Ajax).
 https://lorentain.github.io/peliculas-api/
