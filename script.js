@@ -70,11 +70,11 @@ function ajax(contenedorPeliculas, peliculaPaBuscar) {
                 }
             };
             if(isSeries) {
-                xhttp.open("GET", "http://www.omdbapi.com/?s=" + peliculaPaBuscar + "&type=" + "series" + "&page=" + contadorPage + "&apikey=7a12ca1f", true);
+                xhttp.open("GET", "https://www.omdbapi.com/?s=" + peliculaPaBuscar + "&type=" + "series" + "&page=" + contadorPage + "&apikey=7a12ca1f", true);
             }else if(isPeliculas) {
-                xhttp.open("GET", "http://www.omdbapi.com/?s=" + peliculaPaBuscar + "&type=" + "movie" + "&page=" + contadorPage + "&apikey=7a12ca1f", true);
+                xhttp.open("GET", "https://www.omdbapi.com/?s=" + peliculaPaBuscar + "&type=" + "movie" + "&page=" + contadorPage + "&apikey=7a12ca1f", true);
             }else {
-                xhttp.open("GET", "http://www.omdbapi.com/?s=" + peliculaPaBuscar + "&type=" + "" + "&page=" + contadorPage + "&apikey=7a12ca1f", true);
+                xhttp.open("GET", "https://www.omdbapi.com/?s=" + peliculaPaBuscar + "&type=" + "" + "&page=" + contadorPage + "&apikey=7a12ca1f", true);
 
             }
             xhttp.send();
@@ -125,7 +125,7 @@ function ajaxDetallao(e) {
             }
         }
     };
-    xhttp.open("GET", "http://www.omdbapi.com/?" + "i=" + idPelicula + "&apikey=7a12ca1f", true);
+    xhttp.open("GET", "https://www.omdbapi.com/?" + "i=" + idPelicula + "&apikey=7a12ca1f", true);
     xhttp.send();
 }
 
